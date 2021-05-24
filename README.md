@@ -77,7 +77,11 @@ The program will allow someone named Claire who owns a salon to see a list of th
 
 ## Known Bugs
 
-* _none. That I know of..._
+* _Background image does not display via css styling_
+
+#### Background Image
+> Photo by: [Guilherme Petri](https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+> Via: [Unsplash](https://unsplash.com/)
 ---
 
 ## License [GPL] (https://choosealicense.com/licenses/gpl-3.0/)
