@@ -14,7 +14,14 @@
   @Html.LabelFor(model => model.Stylist)
   @Html.DropDownList("StylistId")
 
-
-  <input type="submit" value="Add new client" class="btn btn-default" />
+  @if (Enumerable.Count(ViewBag.StylistId) == 0)
+  {
+    <h3>No Stylists have been added yet, Claire. Please add a stylist to associate them with this client!</h3>
+  }
+  else
+  {
+    <input type="submit" value="Add new client" class="btn btn-default" />
+  }
 }
 <p>@Html.ActionLink("Show all clients", "Index")</p>
+<p>@Html.ActionLink("Home", "Index", "Home")</p>
